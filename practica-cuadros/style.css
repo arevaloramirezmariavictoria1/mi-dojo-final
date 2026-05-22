@@ -1,0 +1,14 @@
+body{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.contenedor-azul {
+    width: 50%;
+    height: 50%;
+    background-color: #DAE8FC;
+    border: 1px solid darkblue;
+    border-radius: 8px;
+}
+
