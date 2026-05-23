@@ -1,127 +1,127 @@
 <mxfile host="65bd71144e">
     <diagram id="YHwLN4E6-a_3QKN12OYN" name="Page-1">
-        <mxGraphModel dx="1120" dy="393" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1122" dy="269" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="6" value="" style="group" vertex="1" connectable="0" parent="1">
+                <mxCell id="6" value="" style="group" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="70" y="70" width="140" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="6">
+                <mxCell id="2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="6" vertex="1">
                     <mxGeometry width="140" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="git init" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6">
+                <mxCell id="3" value="git init" style="rounded=0;whiteSpace=wrap;html=1;" parent="6" vertex="1">
                     <mxGeometry x="10" y="10" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="El inicio del git, no se puede volver a repetir." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6">
+                <mxCell id="5" value="El inicio del git, no se puede volver a repetir." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="6" vertex="1">
                     <mxGeometry x="10" y="55" width="120" height="75" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="" style="group" vertex="1" connectable="0" parent="1">
+                <mxCell id="7" value="" style="group" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="70" y="230" width="140" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="7">
+                <mxCell id="8" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="7" vertex="1">
                     <mxGeometry width="140" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="git branch" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+                <mxCell id="9" value="git branch" style="rounded=0;whiteSpace=wrap;html=1;" parent="7" vertex="1">
                     <mxGeometry x="10" y="10" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="Creamo una rama." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7">
+                <mxCell id="10" value="Creamo una rama." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="7" vertex="1">
                     <mxGeometry x="10" y="55" width="120" height="75" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="" style="group" vertex="1" connectable="0" parent="1">
+                <mxCell id="11" value="" style="group" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="70" y="390" width="140" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="Preparar archivos para guardar." style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="11">
+                <mxCell id="12" value="Preparar archivos para guardar." style="whiteSpace=wrap;html=1;aspect=fixed;" parent="11" vertex="1">
                     <mxGeometry width="140" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="git add ." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="11">
+                <mxCell id="13" value="git add ." style="rounded=0;whiteSpace=wrap;html=1;" parent="11" vertex="1">
                     <mxGeometry x="10" y="10" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" value="" style="group" vertex="1" connectable="0" parent="1">
+                <mxCell id="15" value="" style="group" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="70" y="550" width="140" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="15">
+                <mxCell id="16" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="15" vertex="1">
                     <mxGeometry width="140" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="git commit -m &quot;-&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="15">
+                <mxCell id="17" value="git commit -m &quot;-&quot;" style="rounded=0;whiteSpace=wrap;html=1;" parent="15" vertex="1">
                     <mxGeometry x="10" y="10" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="15">
+                <mxCell id="18" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="15" vertex="1">
                     <mxGeometry x="10" y="55" width="120" height="75" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" value="" style="group" vertex="1" connectable="0" parent="1">
+                <mxCell id="20" value="" style="group" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="70" y="710" width="140" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="20">
+                <mxCell id="21" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="20" vertex="1">
                     <mxGeometry width="140" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="git push" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="20">
+                <mxCell id="22" value="git push" style="rounded=0;whiteSpace=wrap;html=1;" parent="20" vertex="1">
                     <mxGeometry x="10" y="10" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" value="Es cuando subes el contenido a github." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="20">
+                <mxCell id="23" value="Es cuando subes el contenido a github." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="20" vertex="1">
                     <mxGeometry x="10" y="55" width="120" height="75" as="geometry"/>
                 </mxCell>
-                <mxCell id="24" value="" style="group" vertex="1" connectable="0" parent="1">
+                <mxCell id="24" value="" style="group" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="570" y="230" width="140" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="24">
+                <mxCell id="25" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="24" vertex="1">
                     <mxGeometry width="140" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="26" value="git add ." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="24">
+                <mxCell id="26" value="git add ." style="rounded=0;whiteSpace=wrap;html=1;" parent="24" vertex="1">
                     <mxGeometry x="10" y="10" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="28" value="" style="group" vertex="1" connectable="0" parent="1">
+                <mxCell id="28" value="" style="group" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="570" y="390" width="140" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="29" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="28">
+                <mxCell id="29" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="28" vertex="1">
                     <mxGeometry width="140" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="30" value="git commit -m &quot;-&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="28">
+                <mxCell id="30" value="git commit -m &quot;-&quot;" style="rounded=0;whiteSpace=wrap;html=1;" parent="28" vertex="1">
                     <mxGeometry x="10" y="10" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="32" value="" style="group" vertex="1" connectable="0" parent="1">
+                <mxCell id="32" value="" style="group" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="570" y="70" width="140" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="33" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="32">
+                <mxCell id="33" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="32" vertex="1">
                     <mxGeometry width="140" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="34" value="git branch" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="32">
+                <mxCell id="34" value="git branch" style="rounded=0;whiteSpace=wrap;html=1;" parent="32" vertex="1">
                     <mxGeometry x="10" y="10" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="42" value="" style="group" vertex="1" connectable="0" parent="1">
+                <mxCell id="42" value="" style="group" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="570" y="550" width="140" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="43" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="42">
+                <mxCell id="43" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="42" vertex="1">
                     <mxGeometry width="140" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="44" value="git push" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="42">
+                <mxCell id="44" value="git push" style="rounded=0;whiteSpace=wrap;html=1;" parent="42" vertex="1">
                     <mxGeometry x="10" y="10" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="46" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="33" target="26">
+                <mxCell id="46" value="" style="edgeStyle=none;html=1;" parent="1" source="33" target="26" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="47" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="25" target="30">
+                <mxCell id="47" value="" style="edgeStyle=none;html=1;" parent="1" source="25" target="30" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="48" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="29" target="44">
+                <mxCell id="48" value="" style="edgeStyle=none;html=1;" parent="1" source="29" target="44" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="49" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="8">
+                <mxCell id="49" value="" style="edgeStyle=none;html=1;" parent="1" source="8" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="140" y="390" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="53" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="12">
+                <mxCell id="53" value="" style="edgeStyle=none;html=1;" parent="1" source="12" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="140" y="550" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="54" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="18">
+                <mxCell id="54" value="" style="edgeStyle=none;html=1;" parent="1" source="18" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="140" y="720" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="57" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2">
+                <mxCell id="57" value="" style="edgeStyle=none;html=1;" parent="1" source="2" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="140" y="230" as="targetPoint"/>
                     </mxGeometry>
