@@ -31,6 +31,7 @@
   height: 280px;
   background-color: #d5e8d4;
   border: 2px solid #bbe7b9;
+  position: relative;
 }
 
 .morado {
@@ -38,6 +39,7 @@
   height: 170px;
   background-color: #e1d5e7;
   border: 2px solid #d6b2e7;
+  position: relative;
 }
 
 .rosa {
@@ -45,6 +47,7 @@
   height: 70px;
   background-color: #f8cecc;
   border: 2px solid #f49c98;
+  position: relative;
 }
 
 .azul-small {
@@ -53,6 +56,7 @@
   background-color: #dae8fc;
   margin: 50px auto;
   border: 2px solid #bad5fb;
+  position: relative;
 }
 
 .verde-small {
@@ -60,6 +64,7 @@
   height: 100px;
   background-color: #d5e8d4;
   border: 2px solid #bbe7b9;
+  position: relative;
 }
 
 .morado-small {
@@ -67,6 +72,7 @@
   height: 50px;
   background-color: #e1d5e7;
   border: 2px solid #d6b2e7;
+  position: relative;
 }
 
 .rosa-small {
@@ -74,11 +80,62 @@
   height: 25px;
   background-color: #f8cecc;
   border: 2px solid #f49c98;
+  position: relative;
 }
 
 .titulo-azul {
   position: absolute;
   top: 0;
-  left: 0;
-  color: #bad5fb;
+  color: #9ac1f7;
+}
+
+.titulo-verde {
+  position: absolute;
+  top: 0;
+  color: #a4e8a0;
+}
+
+.titulo-morado {
+  position: absolute;
+  top: 0;
+  color: #ca92e3;
+}
+
+.titulo-rosa {
+  position: absolute;
+  top: 0;
+  color: #ed8681;
+  text-align: center;
+}
+
+.titulo-azul-small {
+  position: absolute;
+  top: 0;
+  color: #9ac1f7;
+  text-align: center;
+  margin-top: 2px;
+}
+
+.titulo-verde-small {
+  position: absolute;
+  top: 0;
+  color: #a4e8a0;
+  text-align: center;
+  margin-top: 2px;
+}
+
+.titulo-morado-small {
+  position: absolute;
+  top: 0;
+  color: #ca92e3;
+  text-align: center;
+  margin-top: -2px;
+}
+
+.titulo-rosa-small {
+  position: absolute;
+  top: 0;
+  color: #ed8681;
+  text-align: center;
+  margin-top: 6px;
 }
