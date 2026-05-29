@@ -3,33 +3,49 @@ body {
   background-color: #000000;
 }
 
-.menu-superior {
+.navbar {
+  background-color: #1a1a1e;
   position: fixed;
   top: 0;
-  left: 0;
   width: 100%;
-  background-color: #55b8ce;
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.navbar ul {
   display: flex;
   justify-content: center;
+  list-style: none;
   padding: 15px 0;
 }
 
-.basic-menu {
-  color: white;
+.navbar a {
+  color: #00ffee;
   text-decoration: none;
-  margin: 0 20px;
-  font-family: sans-serif;
   font-weight: bold;
+  margin: 0 20px;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
 }
 
-.basic-menu:hover {
-  color: #2d85e3;
+.navbar a:hover {
+  color: #ffffff;
 }
 
 .cuadrado {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.cuadro {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-evenly;
+  align-content: space-between;
+  margin-bottom: 50px;
 }
 
 .cuadros {
@@ -45,6 +61,42 @@ body {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
+}
+
+.cuadro-azul {
+  width: 520px;
+  height: 520px;
+  background-color: #dae8fc;
+  border: 2px solid #bad5fb;
+  position: relative;
+  z-index: 1;
+}
+
+.cuadro-verde {
+  width: 400px;
+  height: 400px;
+  background-color: #d5e8d4;
+  border: 2px solid #bbe7b9;
+  position: relative;
+  z-index: 1;
+}
+
+.cuadro-morado {
+  width: 280px;
+  height: 280px;
+  background-color: #e1d5e7;
+  border: 2px solid #d6b2e7;
+  position: relative;
+  z-index: 1;
+}
+
+.cuadro-rosa {
+  width: 170px;
+  height: 170px;
+  background-color: #f8cecc;
+  border: 2px solid #f49c98;
+  position: relative;
+  z-index: 1;
 }
 
 .azul {
@@ -77,6 +129,43 @@ body {
 .rosa {
   width: 70px;
   height: 70px;
+  background-color: #f8cecc;
+  border: 2px solid #f49c98;
+  position: relative;
+  z-index: 1;
+}
+
+.azul-three {
+  width: 250px;
+  height: 250px;
+  background-color: #dae8fc;
+  margin: 50px auto;
+  border: 2px solid #bad5fb;
+  position: relative;
+  z-index: 1;
+}
+
+.verde-three {
+  width: 150px;
+  height: 150px;
+  background-color: #d5e8d4;
+  border: 2px solid #bbe7b9;
+  position: relative;
+  z-index: 1;
+}
+
+.morado-three {
+  width: 100px;
+  height: 100px;
+  background-color: #e1d5e7;
+  border: 2px solid #d6b2e7;
+  position: relative;
+  z-index: 1;
+}
+
+.rosa-three {
+  width: 50px;
+  height: 50px;
   background-color: #f8cecc;
   border: 2px solid #f49c98;
   position: relative;
@@ -175,6 +264,38 @@ body {
   color: #ed8681;
   text-align: center;
   margin-top: 6px;
+}
+
+.titulo-azul-three {
+  position: absolute;
+  top: 0;
+  color: #9ac1f7;
+  text-align: center;
+  margin-top: 2px;
+}
+
+.titulo-verde-three {
+  position: absolute;
+  top: 0;
+  color: #a4e8a0;
+  text-align: center;
+  margin-top: 1px;
+}
+
+.titulo-morado-three {
+  position: absolute;
+  top: 0;
+  color: #ca92e3;
+  text-align: center;
+  margin-top: -2px;
+}
+
+.titulo-rosa-three {
+  position: absolute;
+  top: 0;
+  color: #ed8681;
+  text-align: center;
+  margin-top: 15px;
 }
 
 .titulo {
