@@ -46,7 +46,7 @@ body {
 }
 
 .hero {
-  background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5));
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5));
   background-image: url("img/collage.jpg");
   height: 60vh;
   display: flex;
@@ -88,71 +88,77 @@ body {
   position: relative;
 }
 
-.card {
-  height: 350px;
-  border-radius: 12px;
-  overflow: hidden;
+.contenedor-tarjetas {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding: 20px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s ease;
-  background-size: cover;
-  background-position: center;
-}
-
-.card:hover {
-  transform: translateY(-10px);
-}
-
-.card-content {
-  background: linear-gradient(transparent, rgba(0, 0, 0, 0.95));
-  margin: -20px;
-  padding: 40px 20px 20px 20px;
-}
-
-.card-content h3 {
-  font-size: 1.4rem;
-  margin-bottom: 8px;
-  color: #ffffff;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-}
-
-.card-content p {
-  font-size: 0.95rem;
-  color: #e0e0e0;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
-}
-
-.wrap-container {
-  display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
   gap: 25px;
-  max-width: 1200px;
-  margin: 0 auto;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
-.wrap-container .card {
-  flex: 1 1 300px;
-  max-width: 360px;
+.card {
+  position: relative;
+  width: 200px;
+  height: 350px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.galeria-anime {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  grid-auto-flow: column;
+  padding: 40px;
 }
 
-.flex-container {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  max-width: 1300px;
-  margin: 0 auto;
+.imagen-anime {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
 }
 
-.flex-container .card {
-  flex: 1;
+.card:hover .imagen-anime {
+  transform: scale(1.1);
 }
 
-@media (max-width: 900px) {
-  .flex-container {
-    flex-direction: column;
-  }
+.descripcion-flotante {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  padding: 12px;
+  width: 85%;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 13px;
+  line-height: 1.4;
+  pointer-events: none;
+}
+
+.titulo-flotante {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #ffffff;
+  padding: 6px 14px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  font-size: 0.8rem;
 }
