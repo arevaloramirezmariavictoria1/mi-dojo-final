@@ -1,56 +1,113 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mi Página de Inicio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <title>Mi Página de Inicio</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;500&display=swap"
-    rel="stylesheet">
-</head>
+  <body>
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="primero.html">Recomiendo ver primero</a></li>
+        <li><a href="segundo.html">Top 5 animes mas vistos</a></li>
+        <li><a href="tercero.html">Mi top 10 en animes</a></li>
+        <li><a href="cuarta.html">Trailers Destacados: Suzume</a></li>
+      </ul>
+    </nav>
 
-<body>
-  <nav class="navbar">
-    <ul class="nav-links">
-      <li><a href="index.html">Inicio</a></li>
-      <li><a href="primero.html">Recomiendo ver primero</a></li>
-      <li><a href="segundo.html">Top 5 animes mas vistos</a></li>
-      <li><a href="tercero.html">Mi top 10 en animes</a></li>
-    </ul>
-  </nav>
-
-  <header class="hero-section">
-    <div class="hero-overlay">
-      <h1>Bienvenido a mi Web</h1>
-    </div>
-  </header>
-
-  <section id="inicio" class="page">
-    <div class="hero">
-      <div class="hero-title-box">
-        <h1>Rincón Otaku</h1>
+    <header class="hero-section">
+      <div class="hero-overlay">
+        <h1>Bienvenido a mi Web</h1>
       </div>
-    </div>
-    <div class="intro-text">
-      <h2>Explora el Mundo del Anime</h2>
-      <p>
-        Bienvenido a tu rincón dedicado al arte japonés. Aquí encontrarás una
-        selección curada de mis series favoritas, desde clásicos como
-        <strong>Sakura Card Captor</strong> hasta los éxitos actuales como
-        <strong>Jujutsu Kaisen</strong>.
-      </p>
-      <p>
-        Navega a través de nuestras cartas de personajes y descubre por qué
-        estas historias han cautivado a millones. ¡Prepárate para sumergirte
-        en aventuras épicas!
-      </p>
-    </div>
-  </section>
+    </header>
 
-  <footer>
-    <p>Creado con ❤️ por un fan del anime</p>
-  </footer>
+    <section id="inicio" class="page">
+      <div class="hero">
+        <div class="hero-title-box">
+          <h2>Rincón Otaku</h2>
+        </div>
+      </div>
+      <div class="intro-text">
+        <h2>Explora el Mundo del Anime</h2>
+        <p>
+          Bienvenido a tu rincón dedicado al arte japonés. Aquí encontrarás una
+          selección curada de mis series favoritas, desde clásicos como
+          <strong>Sakura Card Captor</strong> hasta los éxitos actuales como
+          <strong>Jujutsu Kaisen</strong>.
+        </p>
+        <p>
+          Navega a través de nuestras cartas de personajes y descubre por qué
+          estas historias han cautivado a millones. ¡Prepárate para sumergirte
+          en aventuras épicas!
+        </p>
+      </div>
+    </section>
 
-</body>
+    <section class="cards-section">
+      <div class="container card-grid">
+        <a href="primero.html" class="card">
+          <div class="card-image">
+            <img src="img/imguno.jpg" alt="Attack on Titan" />
+          </div>
+          <div class="card-content">
+            <h3>Recomiendo ver primero</h3>
+            <p>
+              Una breve descripción de por qué este anime es perfecto para
+              empezar. Habla sobre la trama, el género o su impacto.
+            </p>
+          </div>
+        </a>
 
+        <a href="segundo.html" class="card">
+          <div class="card-image">
+            <img src="img/imgdos.jpg" alt="Demon Slayer" />
+          </div>
+          <div class="card-content">
+            <h3>Top 5 animes mas vistos</h3>
+            <p>
+              Descubre los animes que han arrasado en popularidad. Una pequeña
+              introducción sobre qué los hace tan queridos.
+            </p>
+          </div>
+        </a>
+
+        <a href="tercero.html" class="card">
+          <div class="card-image">
+            <img src="img/imgtres.jpg" alt="Jujutsu Kaisen" />
+          </div>
+          <div class="card-content">
+            <h3>Mi top 10 en animes</h3>
+            <p>
+              Mi selección personal de los mejores animes de todos los tiempos.
+              Un pequeño vistazo a lo que encontrarás.
+            </p>
+          </div>
+        </a>
+
+        <a href="cuarta.html" class="card">
+          <div class="card-image">
+            <img src="img/imgcuatro.jpg" alt="Suzume" />
+          </div>
+          <div class="card-content">
+            <h3>Trailers Destacados: Suzume</h3>
+            <p>
+              Explora el tráiler destacado de la película "Suzume". Una
+              introducción a la historia y lo que puedes esperar de esta obra
+              cinematográfica.
+            </p>
+          </div>
+        </a>
+
+      </div>
+    </section>
+    <footer>
+      <p>Creado con ❤️ por un fan del anime</p>
+    </footer>
+  </body>
 </html>
