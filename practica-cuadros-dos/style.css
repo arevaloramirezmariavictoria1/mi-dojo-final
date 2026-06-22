@@ -1,0 +1,47 @@
+main,
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+.fila-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.fila-grid {
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.azul-claro {
+  background-color: #9ac1f7;
+}
+
+.verde-claro {
+  background-color: #a4e8a0;
+}
+
+.rosa-claro {
+  background-color: #ed8681;
+}
+
+.morado-claro {
+  background-color: #ca92e3;
+}
+
+.full {
+  width: 100%;
+  height: 100px;
+}
+
+.contenedor {
+  flex-direction: column;
+  justify-content: space-around;
+}
